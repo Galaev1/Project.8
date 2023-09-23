@@ -12,7 +12,7 @@ services:
     environment:
       POSTGRES_DB: dl_db
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: 1973
       PGDATA: /data
     volumes:
       - v_data:/data
@@ -58,7 +58,7 @@ services:
       POSTGRES_PORT: 5432
       POSTGRES_DB: dl_db
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: 1973
       ALLOWED_HOSTS: 127.0.0.1
       CELERY_BROKER_URL: redis://redis:6379/0
       CELERY_RESULT_BACKEND: redis://redis:6379/0
